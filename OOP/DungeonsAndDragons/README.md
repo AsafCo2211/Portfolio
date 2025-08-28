@@ -68,7 +68,6 @@ DungeonsAndDragons-OOP/
 
 ## ▶️ How to Run
 ```
-bash
 javac -d out src/**/*.java
 java -cp out game.GameManager
 ```
