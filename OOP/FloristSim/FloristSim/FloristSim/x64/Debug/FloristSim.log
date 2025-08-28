@@ -1,0 +1,82 @@
+﻿  DeliveryPerson.cpp
+C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\FlowersBouquet.h(16,10): error C2365: 'FlowersBouquet::isArranged': redefinition; previous definition was 'data member'
+  (compiling source file 'DeliveryPerson.cpp')
+      C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\FlowersBouquet.h(10,10):
+      see declaration of 'FlowersBouquet::isArranged'
+  
+C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\DeliveryPerson.cpp(7,7): error C2011: 'DeliveryPerson': 'class' type redefinition
+      C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\DeliveryPerson.h(8,7):
+      see declaration of 'DeliveryPerson'
+  
+  Florist.cpp
+C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\Florist.cpp(11,7): error C2011: 'Florist': 'class' type redefinition
+      C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\Florist.h(13,7):
+      see declaration of 'Florist'
+  
+  FloristSim.cpp
+C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\FlowersBouquet.h(16,10): error C2365: 'FlowersBouquet::isArranged': redefinition; previous definition was 'data member'
+  (compiling source file 'FloristSim.cpp')
+      C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\FlowersBouquet.h(10,10):
+      see declaration of 'FlowersBouquet::isArranged'
+  
+  FlowerArranger.cpp
+C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\FlowersBouquet.h(16,10): error C2365: 'FlowersBouquet::isArranged': redefinition; previous definition was 'data member'
+  (compiling source file 'FlowerArranger.cpp')
+      C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\FlowersBouquet.h(10,10):
+      see declaration of 'FlowersBouquet::isArranged'
+  
+C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\FlowerArranger.cpp(6,7): error C2011: 'FlowerArranger': 'class' type redefinition
+      C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\FlowerArranger.h(7,7):
+      see declaration of 'FlowerArranger'
+  
+  FlowersBouquet.cpp
+C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\FlowersBouquet.h(16,10): error C2365: 'FlowersBouquet::isArranged': redefinition; previous definition was 'data member'
+  (compiling source file 'FlowersBouquet.cpp')
+      C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\FlowersBouquet.h(10,10):
+      see declaration of 'FlowersBouquet::isArranged'
+  
+C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\FlowersBouquet.cpp(6,7): error C2011: 'FlowersBouquet': 'class' type redefinition
+      C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\FlowersBouquet.h(7,7):
+      see declaration of 'FlowersBouquet'
+  
+  Gardener.cpp
+C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\FlowersBouquet.h(16,10): error C2365: 'FlowersBouquet::isArranged': redefinition; previous definition was 'data member'
+  (compiling source file 'Gardener.cpp')
+      C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\FlowersBouquet.h(10,10):
+      see declaration of 'FlowersBouquet::isArranged'
+  
+C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\Gardener.cpp(8,7): error C2011: 'Gardener': 'class' type redefinition
+      C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\Gardener.h(8,7):
+      see declaration of 'Gardener'
+  
+  Grower.cpp
+C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\FlowersBouquet.h(16,10): error C2365: 'FlowersBouquet::isArranged': redefinition; previous definition was 'data member'
+  (compiling source file 'Grower.cpp')
+      C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\FlowersBouquet.h(10,10):
+      see declaration of 'FlowersBouquet::isArranged'
+  
+C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\Grower.cpp(9,7): error C2011: 'Grower': 'class' type redefinition
+      C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\Grower.h(9,7):
+      see declaration of 'Grower'
+  
+  Person.cpp
+C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\FlowersBouquet.h(16,10): error C2365: 'FlowersBouquet::isArranged': redefinition; previous definition was 'data member'
+  (compiling source file 'Person.cpp')
+      C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\FlowersBouquet.h(10,10):
+      see declaration of 'FlowersBouquet::isArranged'
+  
+C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\Person.cpp(9,7): error C2011: 'Person': 'class' type redefinition
+      C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\Person.h(9,7):
+      see declaration of 'Person'
+  
+  Wholesaler.cpp
+C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\FlowersBouquet.h(16,10): error C2365: 'FlowersBouquet::isArranged': redefinition; previous definition was 'data member'
+  (compiling source file 'Wholesaler.cpp')
+      C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\FlowersBouquet.h(10,10):
+      see declaration of 'FlowersBouquet::isArranged'
+  
+C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\Wholesaler.cpp(9,7): error C2011: 'Wholesaler': 'class' type redefinition
+      C:\Users\harel\OneDrive - post.bgu.ac.il\שולחן העבודה\university\שנה א\סמסטר ב\OOP\assignment2\FloristSim\FloristSim\FloristSim\Wholesaler.h(9,7):
+      see declaration of 'Wholesaler'
+  
+  Generating Code...
