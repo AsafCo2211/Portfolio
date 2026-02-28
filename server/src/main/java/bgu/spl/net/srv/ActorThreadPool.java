@@ -1,10 +1,10 @@
 package bgu.spl.net.srv;
 
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
 import java.util.Queue;
 import java.util.Set;
-import java.util.WeakHashMap;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -20,7 +20,10 @@ public class ActorThreadPool {
 
     public ActorThreadPool(int threads) {
         this.threads = Executors.newFixedThreadPool(threads);
-        acts = new WeakHashMap<>();
+        // L5: WeakHashMap caused actors to be silently garbage-collected while they still
+        //     had pending tasks in the queue, dropping those tasks.  HashMap keeps strong
+        //     references for the lifetime of the actor's processing session.
+        acts = new HashMap<>();
         playingNow = ConcurrentHashMap.newKeySet();
         actsRWLock = new ReentrantReadWriteLock();
     }

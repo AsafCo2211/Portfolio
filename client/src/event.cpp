@@ -8,6 +8,8 @@
 #include <sstream>
 using json = nlohmann::json;
 
+// C12: parameter order now consistent between declaration and definition (team_a, team_b, name, ...)
+// C13: removed the empty Event(const std::string &frame_body) stub constructor
 Event::Event(std::string team_a_name, std::string team_b_name, std::string name, int time,
              std::map<std::string, std::string> game_updates, std::map<std::string, std::string> team_a_updates,
              std::map<std::string, std::string> team_b_updates, std::string discription)
@@ -61,10 +63,6 @@ const std::string &Event::get_discription() const
     return this->description;
 }
 
-Event::Event(const std::string &frame_body) : team_a_name(""), team_b_name(""), name(""), time(0), game_updates(), team_a_updates(), team_b_updates(), description("")
-{
-}
-
 names_and_events parseEventsFile(std::string json_path)
 {
     std::ifstream f(json_path);
@@ -106,7 +104,8 @@ names_and_events parseEventsFile(std::string json_path)
             else
                 team_b_updates[update.key()] = update.value().dump();
         }
-        
+
+        // C12: argument order matches declaration/definition (team_a, team_b, name, ...)
         events.push_back(Event(team_a_name, team_b_name, name, time, game_updates, team_a_updates, team_b_updates, description));
     }
     names_and_events events_and_names{team_a_name, team_b_name, events};

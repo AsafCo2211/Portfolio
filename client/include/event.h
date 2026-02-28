@@ -26,8 +26,13 @@ private:
     std::string description;
 
 public:
-    Event(std::string name, std::string team_a_name, std::string team_b_name, int time, std::map<std::string, std::string> game_updates, std::map<std::string, std::string> team_a_updates, std::map<std::string, std::string> team_b_updates, std::string discription);
-    Event(const std::string & frame_body);
+    // C12: parameter order in declaration now matches definition (team_a, team_b, name, ...)
+    Event(std::string team_a_name, std::string team_b_name, std::string name, int time,
+          std::map<std::string, std::string> game_updates,
+          std::map<std::string, std::string> team_a_updates,
+          std::map<std::string, std::string> team_b_updates,
+          std::string discription);
+    // C13: removed the empty frame_body constructor — it was a stub that parsed nothing
     virtual ~Event();
     const std::string &get_team_a_name() const;
     const std::string &get_team_b_name() const;

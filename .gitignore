@@ -1,1 +1,35 @@
+# C++ build artifacts
+bin/
+*.o
+*.a
+*.out
+
+# Java / Maven build artifacts
+target/
+*.class
+*.jar
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# SQLite database (generated at runtime)
+stomp_server.db
+
+# macOS metadata
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE / editor
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# Client output files generated during a session
+summary_output*.txt
+*.log
